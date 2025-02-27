@@ -3,10 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first website</title>
+    <title>Position Styling</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .box{
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            border: 2px solid black;
+            outline: 2px solid red;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: black;
+            color: rgb(61, 134, 199);
+
+        }
+        .cont1{
+            width: 50%;
+            height: 300px;
+            background-color: rgb(94, 216, 131);
+            border: 2px solid black;
+        }
+        
+        
+        .cont2{
+            position: relative;
+            left: 50%;
+            bottom: 300px;
+            width: 50%;
+            height: 300px;
+            background-color: rgb(209, 224, 68);
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
-    Hey this is my first website.
+    <div class="box">
+        Parallel Division
+    </div>
+
+    <div class="cont1">
+        This is This
+    </div>
+
+    <div class="cont2">
+        This is that
+    </div>
     
     <link rel="stylesheet" href="style.css">
 </body>
