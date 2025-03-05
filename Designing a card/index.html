@@ -9,12 +9,19 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
         
+        
         *{
             margin: 0;
         }
         body {
             background-color: grey;
             padding: 50px 70px;
+        }
+        @media only screen and (min-width: 450px){
+            body{
+                background-color: brown;
+            }
+            
         }
 
         .card {
@@ -59,6 +66,7 @@
             text-align: center;
         }
         button{
+            
             border-radius: 15px;
             background-color: rgb(145, 201, 218);
             font-family: "Poppins", sans-serif;
@@ -66,6 +74,23 @@
             color: rgb(58, 160, 219);
             font-weight: bold;
             padding: 2px 8px;
+        }
+        .system{
+            position: relative;
+            bottom:55px;
+            left: 190px;
+        }
+        .baba{
+
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        color: rgb(119, 112, 112);
+        
+        }
+        .image2{
+            position: relative;
+            left: 12px;
+            top: 4px;
         }
     </style>
 </head>
@@ -92,6 +117,15 @@
         </div>
         <div class="button">
             <button>Read More</button>
+        </div>
+        <div class="system">
+            
+            <div class="image2">
+                <img height="50px" width="30px" src="https://www.hindustantimes.com/ht-img/img/2025/01/23/900x1600/IIT_Baba_Abhay_Singh1_1737205341686_1737607262562.jpg" alt="baba">
+            </div>
+            <div class="baba">
+                With Love
+            </div>
         </div>
     </div>
 

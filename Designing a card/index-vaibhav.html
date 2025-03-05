@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing Card</title>
+    <style>
+        body {
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background-color: white;
+            width: 210px;
+            height: 400px;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .image {
+            padding: 5px;
+        }
+
+        .image img {
+            border-radius: 3px;
+            width: 100%;
+            display: block;
+        }
+
+       
+        .capsule {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 5px;
+        }
+
+        .capsule span {
+            border: 1px solid grey;
+            border-radius: 20px;
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 10px;
+        }
+
+        .content h2 {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img src="https://images.pexels.com/photos/247600/pexels-photo-247600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="card image">
+        </div>
+
+       
+        <div class="capsule">
+            <span class="nature">Nature</span>
+            <span class="lake">Lake</span>
+        </div>
+
+        <div class="content">
+            <h2>Sabke Papa</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione velit quibusdam, soluta nam perspiciatis qui nostrum natus, tenetur ullam, tempora ipsam?</p>
+        </div>
+    </div>
+</body>
+
+</html>
